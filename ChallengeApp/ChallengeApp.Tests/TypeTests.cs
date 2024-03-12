@@ -29,7 +29,6 @@ namespace ChallengeApp.Tests
             Assert.AreEqual(user1.Name, user2.Name);
         }
         private Employee GetEmployee(string name, string surname, string age)
-
         {
             return new Employee("name", "surname", "age");
         }
